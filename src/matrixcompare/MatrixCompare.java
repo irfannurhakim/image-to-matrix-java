@@ -40,7 +40,6 @@ public class MatrixCompare {
             Image image = ImageIO.read(file);
             Image image1 = ImageIO.read(file1);
             
-            
             int[][] matricesA = new int[image.getWidth(null)][image.getHeight(null)];
             int[][] matricesB = new int[image.getWidth(null)][image.getHeight(null)];
             
